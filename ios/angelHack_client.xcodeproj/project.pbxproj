@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* angelHack_clientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* angelHack_clientTests.m */; };
-		07EE034C7CF3F3D0910F33CE /* libPods-angelHack_client-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E760052CE9E3D4E85851D40 /* libPods-angelHack_client-tvOSTests.a */; };
+		079511C6B5236ACFB7FA67C8 /* libPods-angelHack_client-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BE5C29FC43C241EE0B9598 /* libPods-angelHack_client-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -17,9 +17,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* angelHack_clientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* angelHack_clientTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		87854793540DBBA2054CF9C0 /* libPods-angelHack_client-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1C86A882020818054CCAFD /* libPods-angelHack_client-tvOS.a */; };
-		C1D31C48AA2E7F7233223287 /* libPods-angelHack_client-angelHack_clientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BBE2B28A504B35A39F244 /* libPods-angelHack_client-angelHack_clientTests.a */; };
-		E4D5D2B74F6D382DCB8077A5 /* libPods-angelHack_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB7A6FD3863ED093C29E64A /* libPods-angelHack_client.a */; };
+		88338B69764A53591AB5F5EB /* libPods-angelHack_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E8BBC3B5A221D8236E0E56 /* libPods-angelHack_client.a */; };
+		9197F1D1755D0FC651095DEB /* libPods-angelHack_client-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA70A08541D9468BB47582B /* libPods-angelHack_client-tvOS.a */; };
+		CAA30CB3A8AAF7257FFEC19B /* libPods-angelHack_client-angelHack_clientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDAD47AA488A0DD22EA4E0 /* libPods-angelHack_client-angelHack_clientTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +50,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = angelHack_client/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = angelHack_client/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = angelHack_client/main.m; sourceTree = "<group>"; };
+		1BCDFC04D5C00B5D4C104D8A /* Pods-angelHack_client-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOS/Pods-angelHack_client-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1D79B594785623D0FE32A554 /* Pods-angelHack_client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client/Pods-angelHack_client.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* angelHack_client-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "angelHack_client-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* angelHack_client-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "angelHack_client-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E760052CE9E3D4E85851D40 /* libPods-angelHack_client-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		621E63225429FCF8727DAA96 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-angelHack_clientTests.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests.release.xcconfig"; sourceTree = "<group>"; };
+		499C122727A97625F011938A /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-angelHack_clientTests.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0CA28B682E2D20E1789A04 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-angelHack_clientTests.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests.release.xcconfig"; sourceTree = "<group>"; };
+		670652D2E53B2A7D920BC743 /* Pods-angelHack_client-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOS.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOS/Pods-angelHack_client-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6DA70A08541D9468BB47582B /* libPods-angelHack_client-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2B9646F12603FF434B8B3D /* Pods-angelHack_client-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOSTests/Pods-angelHack_client-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = angelHack_client/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		91E9388AEB26E2F12221C9AD /* Pods-angelHack_client-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOSTests/Pods-angelHack_client-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A35BBE2B28A504B35A39F244 /* libPods-angelHack_client-angelHack_clientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-angelHack_clientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6DFC9C2570E482B6832DD62 /* Pods-angelHack_client-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOS.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOS/Pods-angelHack_client-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C7BE75953C3AD6E454E6CA55 /* Pods-angelHack_client-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOS/Pods-angelHack_client-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		CD54E37761E8725F400834B5 /* Pods-angelHack_client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client/Pods-angelHack_client.debug.xcconfig"; sourceTree = "<group>"; };
-		CE1C86A882020818054CCAFD /* libPods-angelHack_client-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDB7A6FD3863ED093C29E64A /* libPods-angelHack_client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1DFFEFFC7A0BDD760BD5B4D /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-angelHack_clientTests.debug.xcconfig"; path = "Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDDAD47AA488A0DD22EA4E0 /* libPods-angelHack_client-angelHack_clientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-angelHack_clientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BE5C29FC43C241EE0B9598 /* libPods-angelHack_client-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E8BBC3B5A221D8236E0E56 /* libPods-angelHack_client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-angelHack_client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33D50B764530EA246AB125C /* Pods-angelHack_client-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOSTests/Pods-angelHack_client-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF62D6E9DBBB1A26B62DDFD0 /* Pods-angelHack_client-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client-tvOSTests/Pods-angelHack_client-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		F46A80257EE44F056B722945 /* Pods-angelHack_client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client/Pods-angelHack_client.release.xcconfig"; sourceTree = "<group>"; };
+		F5EF72FA763962912FF0DE07 /* Pods-angelHack_client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-angelHack_client.release.xcconfig"; path = "Target Support Files/Pods-angelHack_client/Pods-angelHack_client.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D31C48AA2E7F7233223287 /* libPods-angelHack_client-angelHack_clientTests.a in Frameworks */,
+				CAA30CB3A8AAF7257FFEC19B /* libPods-angelHack_client-angelHack_clientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D5D2B74F6D382DCB8077A5 /* libPods-angelHack_client.a in Frameworks */,
+				88338B69764A53591AB5F5EB /* libPods-angelHack_client.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87854793540DBBA2054CF9C0 /* libPods-angelHack_client-tvOS.a in Frameworks */,
+				9197F1D1755D0FC651095DEB /* libPods-angelHack_client-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EE034C7CF3F3D0910F33CE /* libPods-angelHack_client-tvOSTests.a in Frameworks */,
+				079511C6B5236ACFB7FA67C8 /* libPods-angelHack_client-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				DDB7A6FD3863ED093C29E64A /* libPods-angelHack_client.a */,
-				A35BBE2B28A504B35A39F244 /* libPods-angelHack_client-angelHack_clientTests.a */,
-				CE1C86A882020818054CCAFD /* libPods-angelHack_client-tvOS.a */,
-				3E760052CE9E3D4E85851D40 /* libPods-angelHack_client-tvOSTests.a */,
+				C0E8BBC3B5A221D8236E0E56 /* libPods-angelHack_client.a */,
+				8FDDAD47AA488A0DD22EA4E0 /* libPods-angelHack_client-angelHack_clientTests.a */,
+				6DA70A08541D9468BB47582B /* libPods-angelHack_client-tvOS.a */,
+				A7BE5C29FC43C241EE0B9598 /* libPods-angelHack_client-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* angelHack_clientTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				BF58599DCE2BACB929DF2B8F /* Pods */,
+				9F9B377555F18C6A16A7F6E3 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,17 +182,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF58599DCE2BACB929DF2B8F /* Pods */ = {
+		9F9B377555F18C6A16A7F6E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD54E37761E8725F400834B5 /* Pods-angelHack_client.debug.xcconfig */,
-				F46A80257EE44F056B722945 /* Pods-angelHack_client.release.xcconfig */,
-				E1DFFEFFC7A0BDD760BD5B4D /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */,
-				621E63225429FCF8727DAA96 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */,
-				C7BE75953C3AD6E454E6CA55 /* Pods-angelHack_client-tvOS.debug.xcconfig */,
-				B6DFC9C2570E482B6832DD62 /* Pods-angelHack_client-tvOS.release.xcconfig */,
-				91E9388AEB26E2F12221C9AD /* Pods-angelHack_client-tvOSTests.debug.xcconfig */,
-				EF62D6E9DBBB1A26B62DDFD0 /* Pods-angelHack_client-tvOSTests.release.xcconfig */,
+				1D79B594785623D0FE32A554 /* Pods-angelHack_client.debug.xcconfig */,
+				F5EF72FA763962912FF0DE07 /* Pods-angelHack_client.release.xcconfig */,
+				499C122727A97625F011938A /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */,
+				5E0CA28B682E2D20E1789A04 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */,
+				1BCDFC04D5C00B5D4C104D8A /* Pods-angelHack_client-tvOS.debug.xcconfig */,
+				670652D2E53B2A7D920BC743 /* Pods-angelHack_client-tvOS.release.xcconfig */,
+				6E2B9646F12603FF434B8B3D /* Pods-angelHack_client-tvOSTests.debug.xcconfig */,
+				D33D50B764530EA246AB125C /* Pods-angelHack_client-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "angelHack_clientTests" */;
 			buildPhases = (
-				107A29F02F36D7B62E149B8A /* [CP] Check Pods Manifest.lock */,
+				05DDBD144E8C31F020A12FA7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A037310C386024170CC8210E /* [CP] Copy Pods Resources */,
+				C8738BD004C0463D1D36B42B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "angelHack_client" */;
 			buildPhases = (
-				ECFAA5DFE9B5EECC3E1485C4 /* [CP] Check Pods Manifest.lock */,
+				1F150EFB9EDA9CDE2CFBE6D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FDABF2A408E22AD511920BDD /* [CP] Copy Pods Resources */,
+				8C76F1EC7877C1EFFB02BF4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "angelHack_client-tvOS" */;
 			buildPhases = (
-				6C6F07768F00A89066041143 /* [CP] Check Pods Manifest.lock */,
+				C606361B7DDBC050D0D11D47 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "angelHack_client-tvOSTests" */;
 			buildPhases = (
-				E5ACB72FF0214CD2B67C1D50 /* [CP] Check Pods Manifest.lock */,
+				AE7CDA81BCEA1D22793BE40A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,7 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		107A29F02F36D7B62E149B8A /* [CP] Check Pods Manifest.lock */ = {
+		05DDBD144E8C31F020A12FA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,21 +399,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		6C6F07768F00A89066041143 /* [CP] Check Pods Manifest.lock */ = {
+		1F150EFB9EDA9CDE2CFBE6D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,20 +414,34 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-angelHack_client-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-angelHack_client-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A037310C386024170CC8210E /* [CP] Copy Pods Resources */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests-resources.sh",
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		8C76F1EC7877C1EFFB02BF4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-angelHack_client/Pods-angelHack_client-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -450,10 +450,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-angelHack_client/Pods-angelHack_client-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5ACB72FF0214CD2B67C1D50 /* [CP] Check Pods Manifest.lock */ = {
+		AE7CDA81BCEA1D22793BE40A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,7 +475,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ECFAA5DFE9B5EECC3E1485C4 /* [CP] Check Pods Manifest.lock */ = {
+		C606361B7DDBC050D0D11D47 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -490,11 +490,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-angelHack_client-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-angelHack_client-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8738BD004C0463D1D36B42B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-angelHack_client-angelHack_clientTests/Pods-angelHack_client-angelHack_clientTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -533,24 +551,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FDABF2A408E22AD511920BDD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-angelHack_client/Pods-angelHack_client-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-angelHack_client/Pods-angelHack_client-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1DFFEFFC7A0BDD760BD5B4D /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */;
+			baseConfigurationReference = 499C122727A97625F011938A /* Pods-angelHack_client-angelHack_clientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 621E63225429FCF8727DAA96 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */;
+			baseConfigurationReference = 5E0CA28B682E2D20E1789A04 /* Pods-angelHack_client-angelHack_clientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD54E37761E8725F400834B5 /* Pods-angelHack_client.debug.xcconfig */;
+			baseConfigurationReference = 1D79B594785623D0FE32A554 /* Pods-angelHack_client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F46A80257EE44F056B722945 /* Pods-angelHack_client.release.xcconfig */;
+			baseConfigurationReference = F5EF72FA763962912FF0DE07 /* Pods-angelHack_client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BE75953C3AD6E454E6CA55 /* Pods-angelHack_client-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1BCDFC04D5C00B5D4C104D8A /* Pods-angelHack_client-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6DFC9C2570E482B6832DD62 /* Pods-angelHack_client-tvOS.release.xcconfig */;
+			baseConfigurationReference = 670652D2E53B2A7D920BC743 /* Pods-angelHack_client-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91E9388AEB26E2F12221C9AD /* Pods-angelHack_client-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6E2B9646F12603FF434B8B3D /* Pods-angelHack_client-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF62D6E9DBBB1A26B62DDFD0 /* Pods-angelHack_client-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D33D50B764530EA246AB125C /* Pods-angelHack_client-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
