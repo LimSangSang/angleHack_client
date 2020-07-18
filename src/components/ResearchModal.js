@@ -10,18 +10,19 @@ import {
     TouchableOpacity,
     Button
 } from 'react-native';
+import { colors } from '../libraries/colors';
 const styles = StyleSheet.create({
     checkboxContainer: {
-        borderRadius: 10, borderColor: '#a3a3a3', width: '100%', borderWidth: 2, padding: 15, fontSize: 20, margin: 5
+        borderRadius: 10, borderColor: colors.gray, width: '100%', borderWidth: 2, padding: 15, fontSize: 20, margin: 5
     },
     checkedCheckboxContainer: {
-        borderRadius: 10, borderColor: '#ca5e51', width: '100%', borderWidth: 2, padding: 15, fontSize: 20, margin: 5
+        borderRadius: 10, borderColor: colors.red, width: '100%', borderWidth: 2, padding: 15, fontSize: 20, margin: 5
     },
     checkboxText: {
-        color: '#a3a3a3', fontWeight: 'bold'
+        color: colors.gray, fontWeight: 'bold'
     },
     checkedCheckboxText: {
-        color: '#ca5e51', fontWeight: 'bold'
+        color: colors.red, fontWeight: 'bold'
     },
     questionBox: {
         width: '100%', padding: 30, shadowColor: '#000',
@@ -53,12 +54,13 @@ const question1Value = { 1: false, 2: false, 3: false, 4: false };
 const question2Value = { 1: false, 2: false, 3: false, 4: false, 5: false };
 const question3Value = { 1: false, 2: false, 3: false, 4: false, 5: false, 6: false, 7: false, 8: false };
 
-const ResearchModal = ({ modalStatus }) => {
+const ResearchModal = ({ modalStatus, setModalStatus }) => {
     const [question1Checked, setQuestion1Checked] = useState(question1Value);
     const [question2Checked, setQuestion2Checked] = useState(question2Value);
     const [question3Checked, setQuestion3Checked] = useState(question3Value);
     // const [question4Checked, setQuestion4Checked] = useState(question4Value);
     const questionCheckbox = (item, questionValue, questionChecked, setQuestionChecked) => {
+
         return <TouchableOpacity key={item.key} style={questionChecked[item.key] ? styles.checkedCheckboxContainer : styles.checkboxContainer} onPress={() => setQuestionChecked({ ...questionValue, [item.key]: item.key })}>
             <Text style={questionChecked[item.key] ? styles.checkedCheckboxText : styles.checkboxText}>{item.value}</Text>
         </TouchableOpacity>
@@ -68,6 +70,13 @@ const ResearchModal = ({ modalStatus }) => {
             <Text style={{ fontSize: 18, lineHeight: 30 }}>{questionTitle.value}</Text>
             {checkboxItem.map(item => questionCheckbox(item, questionValue, questionChecked, setQuestionChecked))}
         </View>
+    }
+    const saveQuestion = () => {
+        for (let q in question1Checked) {
+            // console.log(k + " : " + obj[k]);
+            if (!question1Checked[q]) return;
+
+        }
     }
     return (
 
@@ -87,7 +96,7 @@ const ResearchModal = ({ modalStatus }) => {
                         <View>
                             <Text style={{ fontSize: 26, fontWeight: 'bold', lineHeight: 40 }}>{`당신의 취향을 \n \t찾아드릴게요`}</Text>
                         </View>
-                        <View >
+                        <TouchableOpacity onPress={() => setModalStatus(false)}>
                             <Image
                                 style={{
                                     height: 24,
@@ -95,15 +104,15 @@ const ResearchModal = ({ modalStatus }) => {
                                 }}
                                 source={require('../images/close.png')}
                             />
-                        </View>
+                        </TouchableOpacity>
                     </View>
                     <View style={{ marginTop: 30 }}>
                         {questionContainer(questionTitle[0], question1, question1Value, question1Checked, setQuestion1Checked)}
                         {questionContainer(questionTitle[1], question2, question2Value, question2Checked, setQuestion2Checked)}
-                        {questionContainer(questionTitle[2], question3, question3Value, question3Checked, setQuestion3Checked)}
+                        {questionContainer(questionTitle[2], question3, question3Checked, question3Checked, setQuestion3Checked)}
 
                         <View style={{ backgroundColor: '#a4c196', padding: 10, borderRadius: 10 }}>
-                            <Button title='확인' color='white' backgroundColor='blue' />
+                            <Button title='확인' color='white' onPress={() => console.log(question3Checked)} />
                         </View>
                     </View>
 
