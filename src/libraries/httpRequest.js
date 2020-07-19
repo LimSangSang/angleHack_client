@@ -2,6 +2,7 @@
 const root = 'http://49.247.215.15:8080/';
 export const readHome = `${root}products?init`;
 export const readDetailItem = `${root}products?id=`;
+export const readCategoryItem = `${root}products?category1=`;
 
 export const getToDB = async url => {
     try {
