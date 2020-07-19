@@ -11,6 +11,7 @@ import {
     Button
 } from 'react-native';
 import { colors } from '../libraries/colors';
+
 const styles = StyleSheet.create({
     checkboxContainer: {
         borderRadius: 10, borderColor: colors.gray, width: '100%', borderWidth: 2, padding: 15, fontSize: 20, margin: 5
@@ -111,7 +112,7 @@ const ResearchModal = ({ modalStatus, setModalStatus }) => {
                         {questionContainer(questionTitle[1], question2, question2Value, question2Checked, setQuestion2Checked)}
                         {questionContainer(questionTitle[2], question3, question3Checked, question3Checked, setQuestion3Checked)}
 
-                        <View style={{ backgroundColor: '#a4c196', padding: 10, borderRadius: 10 }}>
+                        <View style={{ backgroundColor: colors.green, padding: 10, borderRadius: 10 }}>
                             <Button title='확인' color='white' onPress={() => console.log(question3Checked)} />
                         </View>
                     </View>
