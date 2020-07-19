@@ -51,7 +51,6 @@ const CategoryItems = ({ route }) => {
         (async () => {
             console.log(`${readCategoryItem}${keyToText[key]}`)
             const data = await getToDB(`${readCategoryItem}${keyToText[key]}`);
-            console.log(data)
             setCategoryItems(data)
         })();
 

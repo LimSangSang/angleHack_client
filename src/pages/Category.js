@@ -28,7 +28,7 @@ const categoryTitle = [{ key: 1, label: 'Living' }, { key: 2, label: 'Acc' }, { 
 
 const Category = ({ navigation }) => {
     const CategoryTitle = (item) => {
-        return <TouchableOpacity onPress={() => navigation.navigate('CategoryItems', { label: item.label, key: item.key })}>
+        return <TouchableOpacity key={item.key} onPress={() => navigation.navigate('CategoryItems', { label: item.label, key: item.key })}>
             <Text style={styles.categoryText}>{item.label}</Text>
         </TouchableOpacity>
     }

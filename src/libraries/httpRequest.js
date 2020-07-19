@@ -3,6 +3,7 @@ const root = 'http://49.247.215.15:8080/';
 export const readHome = `${root}products?init`;
 export const readDetailItem = `${root}products?id=`;
 export const readCategoryItem = `${root}products?category1=`;
+export const updateBuyItem = `${root}events?event=buy&`;
 
 export const getToDB = async url => {
     try {
@@ -75,9 +76,9 @@ export const postToDB = async (url, postBodyObj) => {
         const toJson = await res.json();
         return toJson;
     } catch (e) {
-        console.log(`요청이 실패하였습니다. 오류 :: ` + e);
-        alert(`요청이 실패하였습니다. 오류 :: ` + e);
-        const notOK = null;
-        return notOK;
+        // console.log(`요청이 실패하였습니다. 오류 :: ` + e);
+        // alert(`요청이 실패하였습니다. 오류 :: ` + e);
+        // const notOK = null;
+        // return notOK;
     }
 };

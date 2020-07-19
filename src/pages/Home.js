@@ -38,8 +38,6 @@ const styles = StyleSheet.create({
 
 const Home = ({ navigation }) => {
     const [modalStatus, setModalStatus] = useState(true);
-
-    // /{"category1": "식품", "category2": "견과류", "goal": 0, "id": 2, "name": "페어데이 공정무역 카카오닙스, 30개입", "picUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2018/05/23/15/5/e13dffc0-735c-4359-805a-8b5ed846256b.jpg", "price": 1000}, {"category1": "식품", "category2": "견과류", "goal": 10, "id": 2, "name": "페어데이 공정무역 카카오닙스, 30개입", "picUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2018/05/23/15/5/e13dffc0-735c-4359-805a-8b5ed846256b.jpg", "price": 1000}
     const [recommended, setRecommended] = useState([{ category1: '', category2: '', goal: 0, id: 2, name: '', picUrl: '', price: 0 }]);
 
     const [newItems, setNewItems] = useState([{ category1: '', category2: '', goal: 0, id: 2, name: '', picUrl: '', price: 0 }]);
