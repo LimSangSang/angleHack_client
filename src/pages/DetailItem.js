@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import {
-    SafeAreaView,
+    TextInput,
     StyleSheet,
     View,
     Text,
-    Modal,
+    Button,
     Image,
     ScrollView,
     Alert,
-    Button
+    FlatList
 } from 'react-native';
 import { colors } from '../libraries/colors';
+import { Rating, AirbnbRating } from 'react-native-ratings';
 import { goals } from '../libraries/goals';
 import { readDetailItem, getToDB, updateBuyItem, postToDB } from '../libraries/httpRequest';
 import { TouchableOpacity } from 'react-native-gesture-handler';
@@ -56,12 +57,16 @@ const DetailItem = ({ route }) => {
     const [imageWeight, setImageWeight] = useState(0)
     const [detailStatus, setDetailStatus] = useState(true);
     const [reviewStatus, setReviewStatus] = useState(false);
+    const [reviewItem, setReviewItem] = useState([]);
 
     useEffect(() => {
         // return;
         (async () => {
             const data = await getToDB(`${readDetailItem}${id}`);
+            console.log(data.reviews)
             setDetailItem(data);
+            setReviewItem(data.reviews);
+
             Image.getSize(data.detailUrl, (width, height) => {
                 console.log(width, height);
                 setImageHeight(height);
@@ -76,6 +81,18 @@ const DetailItem = ({ route }) => {
         console.log(res);
         if (!res) return alert('결제를 실패했습니다!');
         Alert.alert('결제 성공', '결제가 완료되었습니다!')
+    }
+
+    const commentItem = (item) => {
+        return <View style={{ width: '100%', margin: 20 }}>
+            <Rating
+                imageSize={20}
+                readonly
+                startingValue={item.star}
+            />
+            <Text style={{ margin: 3, color: colors.gray }}>{item.userId}</Text>
+            <Text style={{ margin: 3 }}>{item.content}</Text>
+        </View>
     }
 
 
@@ -128,8 +145,18 @@ const DetailItem = ({ route }) => {
                     </View>
 
                 </View>
-                {reviewStatus && <View>
+                {reviewStatus && <View style={{ width: '100%' }}>
 
+                    {/* <View style={{ flexDirection: 'row', backgroundColor: 'gray', padding: 20, borderRadius: 10 }}>
+                        <TextInput />
+                    </View> */}
+                    <FlatList
+                        showsVerticalScrollIndicator={false}
+                        style={{ height: '100%', width: '100%' }}
+                        data={reviewItem}
+                        renderItem={({ item }) => commentItem(item)}
+                        keyExtractor={(item) => `review-${item.id}`}
+                    />
                 </View>}
                 {detailStatus && <View style={{ height: 4000, width: '100%', justifyContent: 'center' }}>
                     <Image

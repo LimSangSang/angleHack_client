@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
             height: 5,
             width: 0
         },
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        marginBottom: 30
     }
 })
 
@@ -113,7 +114,7 @@ const ResearchModal = ({ modalStatus, setModalStatus }) => {
                         {questionContainer(questionTitle[2], question3, question3Checked, question3Checked, setQuestion3Checked)}
 
                         <View style={{ backgroundColor: colors.green, padding: 10, borderRadius: 10 }}>
-                            <Button title='확인' color='white' onPress={() => console.log(question3Checked)} />
+                            <Button title='확인' color='white' onPress={() => setModalStatus(false)} />
                         </View>
                     </View>
 
